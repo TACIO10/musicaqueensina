@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Música que Ensina transforma alfabetização, leitura e matemática em canções simples para crianças que precisam de mais apoio para aprender.">
     <title>Música que Ensina | Alfabetização em Canções</title>
-    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="preload" as="image" href="assets/hero-musica-alfabetizacao.webp" fetchpriority="high">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main id="inicio">
       <section class="hero">
-        <img class="hero-image" src="assets/hero-musica-alfabetizacao.png" alt="Crianças aprendendo letras e números com música em uma sala alegre">
+        <img class="hero-image" src="assets/hero-musica-alfabetizacao.webp" width="1692" height="930" alt="Crianças aprendendo letras e números com música em uma sala alegre" decoding="async" fetchpriority="high">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-          <img class="hero-logo" src="assets/logo-musica-que-ensina-cortada.png" alt="Música que Ensina">
+          <img class="hero-logo" src="assets/logo-musica-que-ensina-cortada.webp" width="420" height="423" alt="Música que Ensina" decoding="async">
           <p class="eyebrow">O primeiro streaming brasileiro de músicas para alfabetização infantil</p>
           <h1>Seu filho aprende a ler 10x mais rápido cantando.</h1>
           <p class="hero-copy">
@@ -32,7 +32,7 @@
             <span><i data-lucide="check" aria-hidden="true"></i> 7 dias de garantia</span>
             <span><i data-lucide="check" aria-hidden="true"></i> Cancele quando quiser</span>
           </div>
-          <img class="player-mockup" src="assets/mockup-player-musica-transparente.png" alt="Tela de celular com playlist Música que Ensina">
+          <img class="player-mockup" src="assets/mockup-player-musica-transparente.webp" width="640" height="1264" alt="Tela de celular com playlist Música que Ensina" loading="lazy" decoding="async">
         </div>
       </section>
 
@@ -399,7 +399,6 @@
       <a href="#inicio" aria-label="Voltar ao topo"><i data-lucide="arrow-up" aria-hidden="true"></i></a>
     </footer>
 
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-    <script src="script.js"></script>
+    <script src="assets/icons.js" defer></script>
   </body>
 </html>
