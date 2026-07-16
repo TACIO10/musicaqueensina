@@ -95,6 +95,52 @@
         </div>
       </section>
 
+      <section class="listen-now" aria-label="Playlist de demonstração">
+        <div class="section-heading compact">
+          <p class="eyebrow">Ouça agora</p>
+          <h2>Sem cadastro, sem compromisso.</h2>
+          <p>Essas são músicas reais do app. Dê o play e sinta como a alfabetização pode ficar mais leve.</p>
+        </div>
+        <div class="playlist-player" data-playlist>
+          <div class="player-topbar">
+            <div class="window-dots" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <span>Música que Ensina • Player</span>
+          </div>
+          <div class="playlist-tabs" aria-label="Categorias da playlist">
+            <span class="active">Alfabetização</span>
+            <span>Vogais</span>
+            <span>Palavras</span>
+          </div>
+          <div class="track-list">
+            <button class="track-row active" type="button" data-src="assets/audio/a-de-abelha.mp3" data-title="A de Abelha">
+              <span class="play-dot"><i data-lucide="play" aria-hidden="true"></i></span>
+              <span class="track-info">
+                <strong>A de Abelha</strong>
+                <small>Letra A • Som inicial</small>
+              </span>
+              <span class="track-time">2:36</span>
+            </button>
+            <button class="track-row" type="button" data-src="assets/audio/a-festa-dos-passarinhos.mp3" data-title="A Festa dos Passarinhos">
+              <span class="play-dot"><i data-lucide="play" aria-hidden="true"></i></span>
+              <span class="track-info">
+                <strong>A Festa dos Passarinhos</strong>
+                <small>Ritmo, atenção e vocabulário</small>
+              </span>
+              <span class="track-time">2:16</span>
+            </button>
+          </div>
+          <div class="audio-panel">
+            <p>Tocando agora: <strong data-current-track>A de Abelha</strong></p>
+            <audio controls preload="metadata" src="assets/audio/a-de-abelha.mp3"></audio>
+          </div>
+          <p class="playlist-foot">2 músicas de demonstração • acesso completo no plano escolhido</p>
+        </div>
+      </section>
+
       <section class="real-stories band" aria-label="Histórias reais de famílias">
         <div class="section-heading">
           <p class="eyebrow">Histórias reais</p>
@@ -407,5 +453,6 @@
     </footer>
 
     <script src="assets/icons.js" defer></script>
+    <script src="playlist.js" defer></script>
   </body>
 </html>
